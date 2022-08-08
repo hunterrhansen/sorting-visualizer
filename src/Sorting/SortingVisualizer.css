@@ -1,0 +1,15 @@
+.array-container {
+  margin: auto;
+  position: relative;
+  width: 500px;
+  height: 500px;
+  border: 1px solid #ccc;
+}
+
+.array-bar {
+  display: inline-block;
+  height: 100%;
+  width: 20px;
+  margin: 0 1px;
+  background-color: #ccc;
+}
