@@ -1,15 +1,24 @@
-.array-container {
-  margin: auto;
+.visualizer {
   position: relative;
-  width: 500px;
-  height: 500px;
+  width: 1000px;
+  height: 700px;
+  margin: auto;
+
+}
+
+.array-container {
+  position: absolute;
+  padding: 20px;
+  width: 100%;
+  bottom: 0;
   border: 1px solid #ccc;
 }
 
 .array-bar {
+  bottom: 0;
   display: inline-block;
   height: 100%;
   width: 20px;
   margin: 0 1px;
-  background-color: #ccc;
+  background-color: pink;
 }

@@ -1,3 +1,5 @@
+import { swap } from '.';
+
 export function bubbleSort(array : number[]) {
   let isSorted = false;
   while (!isSorted) {
@@ -10,10 +12,4 @@ export function bubbleSort(array : number[]) {
     }
   }
   return array;
-}
-
-function swap(array: number[], i: number, j: number) {
-  const temp = array[i];
-  array[i] = array[j];
-  array[j] = temp;
 }
